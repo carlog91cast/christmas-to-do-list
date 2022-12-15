@@ -1,0 +1,133 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Livvic, sans-serif;
+}
+
+
+/* Container */
+.giftContainer {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+/* Regole Generiche */
+
+body {
+    background-color: #d4d7f5;
+}
+
+h1 {
+    color: #f2ad41;
+    padding: 16px;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 1;
+}
+
+/* header */
+
+.headerContainer {
+    width: 100%;
+    height: 35vh;
+    background-color: #120945;
+    position: relative;
+    background-image: url(img/lights.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+}
+
+.headerTitle {
+    color: darkorange;
+    position: absolute;
+    top: 12%;
+    left: 5%;
+    font-size: 55px;
+
+}
+
+.smallHeader {
+    width: 100%;
+    height: 50px;
+    background-color: #3535EC;
+    border-radius: 0 0 15px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.smallHeader span {
+    color: white;
+    font-size: 28px;
+    font-weight: 600;
+    margin-left: 10px;
+}
+
+/* main */
+
+.giftContainer {
+    width: 100%;
+    justify-content: center;
+    padding: 8px;
+}
+
+.gift {
+    border: white solid 4px;
+    border-radius: 8px;
+
+
+}
+
+.giftInfo {
+    width: 70%;
+    padding: 8px;
+}
+
+.giftPrice {
+    width: 20%;
+    padding: 8px;
+}
+
+button {
+    width: 10%;
+    background-color: white;
+    padding-left: 4px;
+    border: none;
+}
+
+/* form */
+
+form{
+    background-color:#de7eb6;
+    display: flex;
+    border-radius: 8px;
+}
+.formFields{
+    margin: 8px;
+    row-gap: 8px;
+
+}
+input{
+    width: 100%;
+    padding: 8px;
+    border-radius: 8px;
+    border: none;
+}
+#priceField{
+    width: calc(60% - 16px);
+}
+
+.formBtn{
+    background-color: transparent;
+    padding-right: 8px;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-size: 30px;
+}
+
+
+
